@@ -1,37 +1,40 @@
 
-# cool-project
+        ## Command Line Application coded in Node js to generate a good README.md for github repo
+            
+# readme-generator
 
-![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-MIT-green)
+# node.js,javascript,nodeModules
 
-**very cool command line application**
+![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-Apache-green)
 
-
+**This is a readme genereator command line application using node js**
 
 ## Install 
 npm install
-
-
+npm install will download a package and it's dependencies. npm install can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a package.json file and generates a node_modules folder with the installed modules
 
 ## Run Tests 
 npm test
+Writing tests for this project are still in process. We are using jest library to excetues our tests
 
 ## Author
 **Asad Rauf**
 - Github : [@asadrauf](https://github.com/asadrauf)
 
-
+## License 
+Apache: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
+---
+**axios,chalk,prompt-checkbox** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
 ## Contributing
-Issues, Feature requests are most welcomed!
+**Asad Rauf**
+Issues, Feature requests are most welcomed!. There are still issues and anyone can help to fixed the issues. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Show your support :pray:
 Give a :star: or follow me if this project helped you.
+### Any suggestion or question are most welcome
+<img src="https://avatars1.githubusercontent.com/u/7818024?v=4"  style="border-radius: 18px" width="30px" style = "border: 2px solid green" /> Email : [umiasad2017@gmail.com](asadrauf)
 
+*This README was generated with :heart: by node js developer Asad Rauf*
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-## License 
-MIT
-
-MIT: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
----
-
-*This README was generated with :heart: by rd*
 
