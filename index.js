@@ -188,21 +188,22 @@
     
         //writing into the README.md file
         embedIntoFile.write( `
-        ## Command Line Application coded in Node js to generate a good README.md for github repo
+        # Command Line Application coded in Node js to generate a good README.md for github repo
             
-# ${answers.RepoName}
+# ${answers.RepoName} ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
-# ${answers.language}
+## ${answers.language}
+These are the programming languages that we used to built this good README.md file generator
 
 ${(answers.projectVersion) ? "![Project Version](https://img.shields.io/badge/Version-"+answers.projectVersion+"-blue)" : '' } ${(answers.projectHomepage) ? "![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen)" : '' } ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen) ${(answers.twitterusername) ? "![Twitter Follow](https://img.shields.io/twitter/follow/"+answers.twitterusername+"?style=social)" : '' } ${(answers.license) ? "![License](https://img.shields.io/badge/License-"+answers.license+"-green)" : '' }
 
 **${answers.projectDescription}**
 
-${(answers.installCommand)? "## Install ":""}
+${(answers.installCommand)? "## Install ":""} ![Maintained](https://img.shields.io/badge/npm-install-red)
 ${(answers.installCommand)? ""+answers.installCommand+"":""}
 npm install will download a package and it's dependencies. npm install can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a package.json file and generates a node_modules folder with the installed modules
 
-${(answers.testCommand)? "## Run Tests ":""}
+${(answers.testCommand)? "## Run Tests ":""} ![Maintained](https://img.shields.io/badge/npm-test-red)
 ${(answers.testCommand)? ""+answers.testCommand+"":""}
 Writing tests for this project are still in process. We are using jest library to excetues our tests
 

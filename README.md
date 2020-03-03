@@ -1,19 +1,20 @@
 
-        ## Command Line Application coded in Node js to generate a good README.md for github repo
+        # Command Line Application coded in Node js to generate a good README.md for github repo
             
-# readme-generator
+# readme-generator ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
-# node.js,javascript,nodeModules
+## node.js,javascript,nodeModules
+These are the programming languages that we used to built this good README.md file generator
 
-![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-Apache-green)
+![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-ISC-green)
 
 **This is a readme genereator command line application using node js**
 
-## Install 
+## Install  ![Maintained](https://img.shields.io/badge/npm-install-red)
 npm install
 npm install will download a package and it's dependencies. npm install can be run with or without arguments. When run without arguments, npm install downloads dependencies defined in a package.json file and generates a node_modules folder with the installed modules
 
-## Run Tests 
+## Run Tests  ![Maintained](https://img.shields.io/badge/npm-test-red)
 npm test
 Writing tests for this project are still in process. We are using jest library to excetues our tests
 
@@ -22,7 +23,7 @@ Writing tests for this project are still in process. We are using jest library t
 - Github : [@asadrauf](https://github.com/asadrauf)
 
 ## License 
-Apache: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
+ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ---
 **axios,chalk,prompt-checkbox** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
 ## Contributing
