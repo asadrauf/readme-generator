@@ -6,7 +6,7 @@
 ## node.js,javascript,nodeModules
 These are the programming languages that we used to built this good README.md file generator
 
-![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-ISC-green)
+![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-Mozilla-green)
 
 **This is a readme genereator command line application using node js**
 
@@ -19,11 +19,11 @@ npm test
 Writing tests for this project are still in process. We are using jest library to excetues our tests
 
 ## Author
-**Asad Rauf**
+**Node Programmer**
 - Github : [@asadrauf](https://github.com/asadrauf)
 
 ## License 
-ISC: [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+Mozilla: [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]
 ---
 **axios,chalk,prompt-checkbox** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
 ## Contributing

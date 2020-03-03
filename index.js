@@ -139,24 +139,19 @@
        ])
        .then(answers => {
         let selectedChoice = "";
-        if(answers.license === "MIT") {
-        selectedChoice = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+        if(answers === "MIT") { selectedChoice = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
           } 
 
-        else if(answers.license === "ISC") { 
-        selectedChoice = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+        else if(answers === "ISC") { selectedChoice = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
           } 
           
-        else if (answers === "Eclipse"){  
-        selectedChoice = `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
+        else if (answers === "Eclipse"){  selectedChoice = `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
           }
 
-        else if (answers === "Apache"){  
-        selectedChoice = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+        else if (answers === "Apache"){  selectedChoice = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
           }
 
-        else{  
-        selectedChoice = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`;
+        else{  selectedChoice = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`;
           }
 //Calling an asynchronous requestInfo       
     requestInfo();
@@ -175,7 +170,7 @@
           
         );
           writeFile(username, data);
-          //console.log(data);
+          
         } 
           catch (err) {
           console.log(err);
