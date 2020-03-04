@@ -183,7 +183,7 @@
     
         //writing into the README.md file
         embedIntoFile.write( `
-**Command Line Application coded in Node js to generate a good README.md for github repo**
+> ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #Command Line Application coded in Node js to generate a good README.md for github repo
             
 ### ${answers.RepoName} ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
