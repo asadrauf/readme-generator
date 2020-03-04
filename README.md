@@ -1,13 +1,13 @@
 
-## Command Line Application coded in Node js to generate a good README.md for github repo
+**Command Line Application coded in Node js to generate a good README.md for github repo**
             
 ### readme-generator ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
 These are the programming languages that we used to built this good README.md file generator
-## node.js and javascript and nodeModules
+**node.js and javascript and nodeModules**
 
 
-![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  "![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen)" : '' } ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-Apache-green)
+![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen) ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-Apache-green)
 
 **This is a readme genereator command line application using node js**
 
@@ -20,7 +20,7 @@ npm test
 Writing tests for this project are still in process. We are using jest library to excetues our tests
 
 ## Author
-**Asad Rauf**
+**Node Programmer**
 - Github : [@asadrauf](https://github.com/asadrauf)
 
 ## License 
