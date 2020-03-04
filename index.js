@@ -183,9 +183,10 @@
     
         //writing into the README.md file
         embedIntoFile.write( `
-> ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #Command Line Application coded in Node js to generate a good README.md for github repo
-            
+           
 ### ${answers.RepoName} ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
+
+> ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) #Command Line Application coded in Node js to generate a good README.md for github repo. W are using inquirer module that with interact with the user and based on answers provided from the user this application will generate a readme file.
 
 These are the programming languages that we used to built this good README.md file generator
 **${answers.language.join(" and ")}**
