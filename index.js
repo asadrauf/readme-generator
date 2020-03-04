@@ -183,14 +183,15 @@
     
         //writing into the README.md file
         embedIntoFile.write( `
-        # Command Line Application coded in Node js to generate a good README.md for github repo
+## Command Line Application coded in Node js to generate a good README.md for github repo
             
-# ${answers.RepoName} ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
+### ${answers.RepoName} ![Maintained](https://img.shields.io/badge/readme-generator-yellowgreen) ![Maintained](https://img.shields.io/badge/UNC-bootCamp-blue)
 
-## ${answers.language}
 These are the programming languages that we used to built this good README.md file generator
+## ${answers.language.join(" and ")}
 
-${(answers.projectVersion) ? "![Project Version](https://img.shields.io/badge/Version-"+answers.projectVersion+"-blue)" : '' } ${(answers.projectHomepage) ? "![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen)" : '' } ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen) ${(answers.twitterusername) ? "![Twitter Follow](https://img.shields.io/twitter/follow/"+answers.twitterusername+"?style=social)" : '' } ${(answers.license) ? "![License](https://img.shields.io/badge/License-"+answers.license+"-green)" : '' }
+
+${(answers.projectVersion) ? "![Project Version](https://img.shields.io/badge/Version-"+answers.projectVersion+"-blue)" : '' }  "![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen)" : '' } ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ${(answers.license) ? "![License](https://img.shields.io/badge/License-"+answers.license+"-green)" : '' }
 
 **${answers.projectDescription}**
 
@@ -209,7 +210,7 @@ ${(answers.githubusername) ? '- Github : [@'+answers.githubusername+'](https://g
 ${(answers.license)? "## License ":""}
 ${answers.license}: ${selectedChoice}
 ---
-**${answers.dependencies}** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
+**${answers.dependencies.join(" and ")}** [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev)
 ## Contributing
 **${answers.contributing}**
 Issues, Feature requests are most welcomed!. There are still issues and anyone can help to fixed the issues. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
