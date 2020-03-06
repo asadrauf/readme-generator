@@ -10,7 +10,7 @@ These are the programming languages that we used to built this good README.md fi
 
 ![Project Version](https://img.shields.io/badge/Version-version1.1-blue)  ![Documentation](https://img.shields.io/badge/Documentation-Yes-yellowgreen) ![Maintained](https://img.shields.io/badge/Maintained-Yes-yellowgreen)  ![License](https://img.shields.io/badge/License-MIT-green)
 
-**This is the cli that will ask your question related to the project and will generate a readme file for their github repository**
+**This is a readme genereator command line application using node js**
 
 ## Install  ![Maintained](https://img.shields.io/badge/npm-install-red)
 npm install
@@ -21,7 +21,7 @@ npm test
 Writing tests for this project are still in process. We are using jest library to excetues our tests
 
 ## Author
-**Asad Raauf**
+**Asad Rauf**
 - Github : [@asadrauf](https://github.com/asadrauf)
 
 ## License 
